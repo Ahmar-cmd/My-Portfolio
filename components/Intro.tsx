@@ -5,7 +5,6 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs"
 import Link from "next/link"
 import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from "react-icons/fa"
-import { RiNextjsFill } from "react-icons/ri"
 
 const Intro = () => {
   return (
