@@ -14,7 +14,7 @@ const Intro = () => {
         initial={{ y :100, opacity: 0 }}
         animate={{ y :0, opacity: 1 }}
       >
-        <span className="font-extrabold text-5xl sm:text-7xl">Hello, I'm Ahmar.</span> <br /> A passionate{" "}
+        <span className="font-extrabold text-5xl sm:text-7xl">Hello, I&apos;m Ahmar.</span> <br /> A passionate{" "}
         <span className="font-bold">front-end developer</span> who enjoys
         building responsive and interactive websites.
       </motion.h1>

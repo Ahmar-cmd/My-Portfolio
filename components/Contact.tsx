@@ -39,7 +39,7 @@ const Contact = () => {
        <form
          className='flex flex-col  gap-2'
          action={async (formData) => {
-          const { data, error } = await sendEmail(formData);
+          const { error } = await sendEmail(formData);
 
           if (error) {
             toast.error(error);
