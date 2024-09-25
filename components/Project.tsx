@@ -8,7 +8,7 @@ import ReactMarkdown from "react-markdown";
 
 type projectProps = (typeof projectsData)[number];
 
-const Project = ({ title, description, tags, imageUrl }: projectProps) => {
+const Project = ({ title, description, tags, imageUrl, siteLink, codeLink }: projectProps) => {
   return (
     <motion.div 
     initial={{ scale: 0.2, opacity: 0 }}
@@ -36,7 +36,7 @@ const Project = ({ title, description, tags, imageUrl }: projectProps) => {
         </ul>
         <div className="flex gap-2 items-center justify-center flex-wrap">
           <a
-            href="#"
+            href={siteLink}
             target="_blank"
             className="group flex items-center gap-1  bg-black text-white sm:text-base text-sm px-4 py-2 rounded-lg  transition duration-200 outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
           >
@@ -44,7 +44,7 @@ const Project = ({ title, description, tags, imageUrl }: projectProps) => {
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
           </a>
           <a
-            href="#"
+            href={codeLink}
             target="_blank"
             className="group flex items-center gap-1  bg-gray-200 text-gray-800 sm:text-base text-sm px-4 py-2  rounded-lg hover:bg-gray-300 transition duration-200 outline-none focus:scale-110 hover:scale-110  active:scale-105"
           >
