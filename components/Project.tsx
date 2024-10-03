@@ -27,7 +27,7 @@ const Project = ({ title, description, tags, imageUrl, siteLink, codeLink }: pro
         <ul className="flex flex-wrap items-center justify-center gap-y-2 gap-x-3 md:gap-x-5 md:gap-y-3">
           {tags.map((tag, index) => (
             <li
-              className="sm:w-32 w-[108px] h-8 text-center bg-white text-gray-700 font-semibold py-1 px-3 md:px-4 md:py-1 rounded-full text-sm md:text-base"
+              className="sm:w-32 w-[108px] h-8 flex justify-center items-center bg-white text-gray-700 font-semibold py-1 px-3 md:px-4 md:py-1 rounded-full text-sm md:text-base"
               key={index}
             >
               {tag}
