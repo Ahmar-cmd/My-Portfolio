@@ -91,7 +91,7 @@ export const projectsData = [
     title: "Promptopia",
     description:
     "**Promptopia** is a full-stack **responsive** community platform for sharing and discovering AI prompts, enabling users to collaboratively explore and exchange ideas for various AI systems. Created using **Next.js** for server-side rendering and **React** for dynamic UI components. The platform supports full **CRUD** functionality, allowing users to create, update, and manage AI prompts. Integrated **NextAuth** with **Google Provider** for seamless OAuth authentication, ensuring secure and frictionless user login and sign-up experiences. Utilized **MongoDB** with **Mongoose** for efficient data management and retrieval, while leveraging **Tailwind CSS** modern styling and for a fully responsive design.",
-    tags: ["Next.js", "React", "Tailwind CSS", "NextAuth", "MongoDB"],
+    tags: ["Next.js", "React", "TailwindCSS", "NextAuth", "MongoDB"],
     siteLink: "https://promptopia-gray-six.vercel.app/",
     codeLink: "https://github.com/Ahmar-cmd/Promptopia",
     imageUrl: Promptopia,
@@ -100,7 +100,7 @@ export const projectsData = [
     title: "Golds Gym",
     description:
       "**Goldsgym** is a comprehensive web application built using **React** for fitness enthusiasts and is **responsive** from smaller to bigger screens. The platform showcases a vast range of exercises and, when an exercise is selected, provides similar exercises, including those using the same equipment. Integrated YouTube API to recommend relevant video content for a deeper understanding of each workout. Leveraged **Material-UI** for responsive design and **React Router DOM** for smooth navigation. Optimized API calls and data-fetching strategies to ensure high performance, demonstrating expertise in modern frontend development and API integration.",
-    tags: ["React","Javascript", "MUI", "React-Router"],
+    tags: ["React","Javascript", "MUI", "ReactRouter"],
     siteLink: "https://golds-gym-gamma.vercel.app/",
     codeLink: "https://github.com/Ahmar-cmd/Golds-Gym",
     imageUrl: GoldsGym,
@@ -109,7 +109,7 @@ export const projectsData = [
     title: "Portfolio",
     description:
       "My **portfolio** is an utterly **responsive** website crafted using **Next.js**, **React**, and **TypeScript** to effectively showcase my projects, skills, and professional journey. Leveraged **Tailwind CSS** for responsive, modern styling and **Framer Motion** for fluid animations, creating an engaging and visually appealing user experience. Implemented server-side rendering with Next.js for optimal performance, enhanced SEO, and fast load times. Integrated a fully functional contact form with server-side validation, utilizing **Resend** to craft beautifully styled emails, ensuring professional communication and data security. This portfolio highlights my technical expertise in front-end development, while demonstrating creative problem-solving and attention to detail in delivering polished user experiences.",
-    tags: ["Next.js", "React","Typescript", "Tailwind CSS", "Framer"],
+    tags: ["Next.js", "React","Typescript", "TailwindCSS", "Framer"],
     siteLink: "https://my-portfolio-pearl-rho-54.vercel.app/",
     codeLink: "https://github.com/Ahmar-cmd/My-Portfolio",
     imageUrl: Portfolio,
@@ -126,7 +126,7 @@ export const skillsData = [
   "React Router",
   "Next.js",
   "Git",
-  "TailwindCSS",
+  "Tailwind CSS",
   "shadcn",
   "MUI",
   "Appwrite",
