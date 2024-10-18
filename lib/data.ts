@@ -128,6 +128,7 @@ export const projectsData = [
   },
 ] as const;
 
+
 export const skillsData = [
   {
     name: "Javascript",

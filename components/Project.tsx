@@ -68,7 +68,7 @@ const Project = ({
           src={imageUrl}
           alt="project_image"
           layout="responsive"
-          priority
+          loading="lazy"
           className="max-w-full h-auto object-contain xl:rounded-md"
         />
       </div>
