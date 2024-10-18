@@ -21,7 +21,7 @@ const skills = () => {
   return (
     <section
       id="skills"
-      className=' max-w-[53rem] scroll-mt-28 text-center '
+      className='max-w-[53rem] scroll-mt-28 text-center'
     >
     <motion.h2 
       className='heading2'
@@ -36,7 +36,7 @@ const skills = () => {
     <ul className='flex  justify-center flex-wrap gap-2 text-lg font-semibold text-gray-800'>
      {skillsData.map(( skill, index) => (
       <motion.li 
-      className='bg-white rounded-xl px-5 py-3 border border-black/[0.1] shadow-slate-700  shadow-sm'
+      className='bg-white rounded-xl px-4 py-3 border border-black/[0.1] shadow-slate-700  shadow-sm'
        key={index}
        variants={fadeInAnimationVariants}
        custom={index}
@@ -46,7 +46,10 @@ const skills = () => {
         once: true,
        }}
       >
-        {skill}
+        <div className='flex gap-2 justify-center items-center'>
+          <span>{skill.icon}</span>
+          <span className='font-semibold'>{skill.name}</span>
+        </div>
       </motion.li>
     ))}
     </ul>

@@ -1,9 +1,25 @@
+import React from "react";
 import carepulse from "@/public/carepulse.png";
 import Threads from "@/public/Threads.png";
 import Blogspot from "@/public/Blogspot.png";
 import GoldsGym from "@/public/GoldsGym.png";
 import Promptopia from "@/public/Promptopia.png";
 import Portfolio from "@/public/Portfolio.png";
+import { RiJavascriptFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+import { FaReact } from "react-icons/fa6";
+import { SiReactrouter } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiAppwrite } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { DiHtml5 } from "react-icons/di";
+import { FaCss3 } from "react-icons/fa6";
+import { BiLogoTailwindCss } from "react-icons/bi";
+import { FaGit } from "react-icons/fa6";
+import { SiShadcnui } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { FiFramer } from "react-icons/fi";
 
 export const links = [
   {
@@ -22,10 +38,6 @@ export const links = [
     name: "Projects",
     hash: "#projects",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -73,7 +85,7 @@ export const projectsData = [
     title: "Threads",
     description:
       "**Threads** is a community-driven discussion platform inspired by the original Threads website crafted with **Next.js**, **React** and **typescript**, serving as a platform for creating and interacting with threads in a social setting. Key features include user profile management, community browsing, and threaded discussions. It features a nested comment functionality that allows users to comment on threads and reply to each other's comments. Implemented **Tailwind CSS** for **responsive** styling across all devices. Utilized **MongoDB** for data storage and **Mongoose** for schema definition. Integrated **Clerk** for authentication services. Employed **Zod** for type validation. Developed modular architecture with separate components for authentication, root pages, and API routes.",
-    tags: ["Next.js","React", "TypeScript", "Tailwind CSS", "MongoDB", "Clerk"],
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "MongoDB", "Clerk"],
     siteLink: "https://threads-ten-teal.vercel.app/",
     codeLink: "https://github.com/Ahmar-cmd/Threads",
     imageUrl: Threads,
@@ -81,8 +93,8 @@ export const projectsData = [
   {
     title: "Blogspot",
     description:
-      "**Blogspot** is a full-stack **React** application, offering a dynamic blogging platform where users can register, log in, and manage and share posts with full **CRUD** functionality for authors. The site includes a header with adaptive menu items based on user authentication. Key pages include home, login, signup, all posts, and new post creation. **Redux** handles state management, **React Hook Form** simplifies form handling, and **Tailwind CSS** is used for modern, responsive styling. The backend is powered by **Appwrite (BaaS)** for user authentication and data storage.",
-    tags: ["React","Tailwind CSS", "React-Router","Redux", "Appwrite"],
+      "**Blogspot** is a fully **responsive** full-stack **React** application designed as a dynamic blogging platform with comprehensive **CRUD** functionality. Users can register, log in, and manage their posts seamlessly. The platform features a responsive design, with an adaptive header displaying menu items based on authentication status.  Key pages such as Home, Login, Signup, Post Management, and Post Creation are managed via **React Router DOM** for smooth navigation. State management is powered by **Redux**, form handling is streamlined with **React Hook Form**, and **Tailwind CSS** ensures a modern, responsive UI. The backend is supported by **Appwrite (BaaS)** for authentication and data storage.",
+    tags: ["React", "Redux", "React-Router", "React Form", "Tailwind CSS", "Appwrite"],
     siteLink: "https://blog-spot-pearl.vercel.app/",
     codeLink: "https://github.com/Ahmar-cmd/BlogSpot",
     imageUrl: Blogspot,
@@ -117,19 +129,64 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Redux",
-  "React Router",
-  "Next.js",
-  "Git",
-  "Tailwind CSS",
-  "shadcn",
-  "MUI",
-  "Appwrite",
-  "MongoDB",
-  "Framer Motion",
+  {
+    name: "Javascript",
+    icon: React.createElement(RiJavascriptFill),
+  },
+  {
+    name: "Typescript",
+    icon: React.createElement(SiTypescript),
+  },
+  {
+    name: "React",
+    icon: React.createElement(FaReact),
+  },
+  {
+    name: "Next.JS",
+    icon: React.createElement(SiNextdotjs),
+  },
+  {
+    name: "Tailwind CSS",
+    icon: React.createElement(BiLogoTailwindCss),
+  },
+  {
+    name: "Appwrite",
+    icon: React.createElement(SiAppwrite),
+  },
+  {
+    name: "MongoDB",
+    icon: React.createElement(SiMongodb),
+  },
+  {
+    name: "React Router",
+    icon: React.createElement(SiReactrouter),
+  },
+  {
+    name: "Redux",
+    icon: React.createElement(SiRedux),
+  },
+  {
+    name: "Git",
+    icon: React.createElement(FaGit),
+  },
+  {
+    name: "Shadcn",
+    icon: React.createElement(SiShadcnui),
+  },
+  {
+    name: "MUI",
+    icon: React.createElement(SiMui),
+  },
+  {
+    name: "HTML5",
+    icon: React.createElement(DiHtml5),
+  },
+  {
+    name: "CSS3",
+    icon: React.createElement(FaCss3),
+  },
+  {
+    name: "Framer Motion",
+    icon: React.createElement(FiFramer),
+  },
 ] as const;

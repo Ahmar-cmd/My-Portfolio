@@ -56,7 +56,6 @@ const Contact = () => {
          required
          maxLength={500}
          className='h-14 px-4 rounded-lg borderBlack'
-        //  className='w-full h-10 p-2 rounded-md borderBlack '
         />
         <textarea 
          name="message"
@@ -65,7 +64,6 @@ const Contact = () => {
          maxLength={5000}
          rows={10}
          className='p-4 rounded-lg borderBlack'
-        //  className='w-full h-52 p-2 rounded-md borderBlack '
         />
         <SubmitBtn/>
        </form>

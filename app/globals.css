@@ -37,7 +37,7 @@ html.dark {
   @apply border border-black/10;
 }
 .heading2 {
-  @apply text-3xl font-medium mb-8 text-center
+  @apply text-4xl font-medium mb-8 text-center
 }
 
 /* screens: {

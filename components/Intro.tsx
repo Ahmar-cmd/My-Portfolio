@@ -10,12 +10,12 @@ const Intro = () => {
   return (
    <section className="mt-10 sm:mt-0">
       <motion.h1
-        className="mb-5 m-auto px-4 text-center text-2xl sm:text-4xl font-normal !leading-[1.5] md:w-[75%] lg:w-[58%] "
+        className="mb-5 m-auto px-4 text-center text-2xl sm:text-3xl font-normal !leading-[1.5] md:w-[75%] lg:w-[58%] "
         initial={{ y :100, opacity: 0 }}
         animate={{ y :0, opacity: 1 }}
       >
         <span className="font-extrabold text-5xl sm:text-7xl">Hello, I&apos;m Ahmar.</span> <br /> A passionate{" "}
-        <span className="font-bold">front-end developer</span> who enjoys
+        <span className="font-semibold">front-end developer</span> who enjoys
         building responsive and interactive websites.
       </motion.h1>
 
@@ -37,7 +37,7 @@ const Intro = () => {
         </Link>
 
         <a 
-         href="/React_Front-end_Ahmar.pdf"
+         href="/Resume.pdf"
          target="_blank" 
          rel="noopener noreferrer"
          className="group bg-white  px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 cursor-pointer borderBlack transition"
